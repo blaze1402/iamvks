@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#915eff]'>Vijay</span></h1>
+          <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className='text-[#915eff]'>Vijay</span></h1>
           <p className={`${styles.heroSubText}`}>I develop digital products, user <br className='sm:hidden block' />interfaces and web applications</p>
         </div>
       </div>
@@ -22,7 +22,7 @@ const Hero = () => {
         <a href="#about">
           <div
             className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2'>
-            <motion.dev
+            <motion.div
               animate={{ y: [-15, 20, -15] }}
               transition={{ duration: 1.5, repeat: Infinity, repeatType: 'loop' }}
               className='w-3 h-3 rounded-full bg-secondary mb-1' />
