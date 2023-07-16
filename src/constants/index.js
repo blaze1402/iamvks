@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  hydra,
+  twowaits,
+  aspire,
+  logo
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Co-Founder | Design & Tech Lead",
+    company_name: "H.Y.D.R.A Trust",
+    icon: hydra,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2019 - Feb 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Organized events like MUNs, debates, webinars, and awareness programs to create social, economic, and political awareness among youth.",
+      "Designed and created visual assets, user interfaces, and graphics for digital and print media.",
+      "Collaborated with cross-functional teams to develop and implement design projects, ensuring adherence to brand guidelines and user experience principles.",
+      "Managed technology projects and systems, overseeing planning, execution, and timely delivery within allocated budgets.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Trainee",
+    company_name: "TwoWaits Technologies",
+    icon: twowaits,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2022 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively contributed to software development projects, collaborating with the team in designing, coding, testing, and debugging software applications.",
+      "Assisted in identifying and resolving software bugs and issues, ensuring high-quality deliverables and contributing to troubleshooting efforts.",
+      "Engaged in continuous learning and skill development, staying updated with the latest trends and technologies in software development.",
+      "Supported the quality assurance process by performing software testing, creating test plans, and maintaining organized documentation of code and project-related information."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Aspire Leadership Program",
+    company_name: "Aspire Institute by Harvard University",
+    icon: aspire,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jun 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in the Aspire Leadership Program, focusing on leadership skills and professional growth.",
+      "Collaborated with diverse trainees and mentors to develop competencies in communication, problem-solving, and decision-making.",
+      "Actively engaged in training sessions, workshops, and experiential learning for personal and professional development.",
+      "Practiced self-reflection, received feedback, and continuously improved leadership abilities with guidance from mentors and program leaders."
+    ],
+  },
+  {
+    title: "Freelance Software Developer",
+    company_name: "Self Employed",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "Mar 2019 - Present",
+    points: [
+      "Developed and maintained websites using diverse programming languages, frameworks, and content management systems.",
+      "Collaborated closely with clients to gather requirements, align design and functionality, and clarify project objectives.",
+      "Implemented responsive and user-friendly designs for optimal performance across various devices and browsers.",
+      "Managed project timelines, budgets, and deliverables independently, maintaining effective client communication throughout the development process."
     ],
   },
 ];

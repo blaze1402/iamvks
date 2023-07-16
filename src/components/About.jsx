@@ -1,4 +1,3 @@
-import React from 'react'
 import Tilt from 'react-parallax-tilt'
 import { motion } from 'framer-motion'
 
@@ -6,6 +5,7 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import PropTypes from 'prop-types'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
@@ -44,6 +44,12 @@ const About = () => {
       </div>
     </>
   )
+}
+
+ServiceCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.any.isRequired
 }
 
 // eslint-disable-next-line react-refresh/only-export-components
