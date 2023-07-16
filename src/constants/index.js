@@ -4,21 +4,21 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
+  python,
+  flask,
+  django,
   carrent,
   jobit,
   tripguide,
-  threejs,
   hydra,
   twowaits,
   aspire,
@@ -73,16 +73,20 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "Django",
+    icon: django,
   },
   {
     name: "Tailwind CSS",
@@ -95,10 +99,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",

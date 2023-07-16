@@ -16,10 +16,10 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import flask from "./tech/flask.png";
+import django from "./tech/django.png";
 
 import hydra from "./company/hydra.png";
 import twowaits from "./company/twowaits.png";
@@ -47,10 +47,10 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
-  typescript,
-  threejs,
+  python,
+  flask,
+  django,
   carrent,
   jobit,
   tripguide,
