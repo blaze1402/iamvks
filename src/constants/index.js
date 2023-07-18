@@ -16,13 +16,15 @@ import {
   python,
   flask,
   django,
-  carrent,
-  jobit,
-  tripguide,
   hydra,
   twowaits,
   aspire,
-  logo
+  logo,
+  textutils,
+  crowdfunding,
+  notesapp,
+  weatherio,
+  credclone
 } from "../assets";
 
 export const navLinks = [
@@ -198,67 +200,130 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crowdfunding D-App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Crowdfunding application with blockchain technology that provides a transparent, secure, and accessible platform for entrepreneurs, startups, and social projects to raise funds while increasing transparency, security, and accountability.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "solidity",
         color: "pink-text-gradient",
       },
+      {
+        name: "ethersjs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "thirdweb",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: crowdfunding,
+    source_code_link: "https://github.com/blaze1402/CrowdfundingDapp",
+    preview_link: "https://crowdfunding-dapp-blaze.vercel.app/"
   },
   {
-    name: "Job IT",
+    name: "TextUtils",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "TextUtils is a versatile web application that offers various text manipulation and analysis tools to enhance productivity and streamline text-related tasks.",
     tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
       {
         name: "react",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: textutils,
+    source_code_link: "https://github.com/blaze1402/textutils",
+    preview_link: "https://textutils-sage.vercel.app/"
+  },
+  {
+    name: "NotesApp",
+    description:
+      "An intuitive note-taking web app with secure login and anonymous usage options, allowing users to create, edit, and delete their notes effortlessly.",
+    tags: [
+      {
+        name: "bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "flask",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: notesapp,
+    source_code_link: "https://github.com/blaze1402/NotesApp",
+    preview_link: "https://notesapp-.up.railway.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Weather IO",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Weatherio app provides comprehensive weather information, including AQI, sunrise-sunset times, humidity, pressure, visibility, and both current day and 5-day forecast using the OpenWeather API.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwindcss",
         color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weatherio,
+    source_code_link: "https://github.com/blaze1402/WeatherApp",
+    preview_link: "https://weatherio-app.vercel.app/"
+  },
+  {
+    name: "CredClub Clone App",
+    description:
+      "A meticulously crafted CredClub website replica featuring a visually captivating interface, mirroring the original design with precision and attention to detail.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: credclone,
+    source_code_link: "https://github.com/blaze1402/CredClubClone",
+    preview_link: "https://cred-club-clone.vercel.app/"
   },
 ];
 

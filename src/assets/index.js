@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import preview from "./preview.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,9 +26,11 @@ import hydra from "./company/hydra.png";
 import twowaits from "./company/twowaits.png";
 import aspire from "./company/aspire.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import textutils from "./textutils.png";
+import crowdfunding from "./crowdfunding.png";
+import notesapp from "./notesapp.png";
+import weatherio from "./weatherio.png";
+import credclone from "./credclone.png";
 
 export {
   logo,
@@ -36,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  preview,
   menu,
   close,
   css,
@@ -51,9 +55,11 @@ export {
   python,
   flask,
   django,
-  carrent,
-  jobit,
-  tripguide,
+  textutils,
+  notesapp,
+  crowdfunding,
+  credclone,
+  weatherio,
   hydra,
   twowaits,
   aspire
