@@ -174,27 +174,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Vijay proved me wrong.",
+    name: "Ritika Singh",
+    designation: "CEO",
+    company: "Subtle Art",
+    image: "https://i.ibb.co/y682TZ8/bb1.png",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Vijay does.",
+    name: "Kanishq Mishra",
+    designation: "Founder",
+    company: "FOne Corp",
+    image: "https://i.ibb.co/sCBB2BY/1667510045032.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Vijay optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Jeris Joseph",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "H.Y.D.R.A. Trust",
+    image: "https://i.ibb.co/KzD8Bxs/1659102376568.jpg",
   },
 ];
 
