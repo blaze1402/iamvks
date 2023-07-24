@@ -6,6 +6,7 @@ import { styles } from "../styles"
 import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
+import { github, linkedin } from "../assets"
 
 const Contact = () => {
   const formRef = useRef()
@@ -45,7 +46,14 @@ const Contact = () => {
       <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <div className="flex justify-end gap-2">
+          <a href="https://github.com/blaze1402" target="_blank" rel="noreferrer">
+            <img src={github} alt="github" className="xs:w-7 w-6" />
+          </a>
+          <a href="https://www.linkedin.com/in/blaze1402/" target="_blank" rel="noreferrer">
+            <img src={linkedin} alt="linkedin" className="xs:w-7 w-6" />
+          </a>
+        </div>
         <form ref={formRef} onSubmit={handleSubmit} className="mt-6 flex flex-col gap-8">
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
