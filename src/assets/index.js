@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import linkedin from "./linkedin.svg";
+import cv from "./cv.svg";
 import preview from "./preview.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -41,6 +42,7 @@ export {
   web,
   github,
   linkedin,
+  cv,
   preview,
   menu,
   close,
