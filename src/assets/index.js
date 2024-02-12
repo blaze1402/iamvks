@@ -32,7 +32,8 @@ import textutils from "./textutils.png";
 import crowdfunding from "./crowdfunding.png";
 import notesapp from "./notesapp.png";
 import weatherio from "./weatherio.png";
-import credclone from "./credclone.png";
+import suhanishah from "./SuhaniShah.png";
+import tpc from "./TPC.png";
 
 export {
   logo,
@@ -62,7 +63,8 @@ export {
   textutils,
   notesapp,
   crowdfunding,
-  credclone,
+  suhanishah,
+  tpc,
   weatherio,
   hydra,
   twowaits,

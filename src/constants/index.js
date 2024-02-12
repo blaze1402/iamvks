@@ -24,7 +24,8 @@ import {
   crowdfunding,
   notesapp,
   weatherio,
-  credclone
+  suhanishah,
+  tpc
 } from "../assets";
 
 export const navLinks = [
@@ -182,23 +183,83 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Vijay does.",
-    name: "Kanishq Mishra",
-    designation: "Founder",
-    company: "FOne Corp",
-    image: "https://i.ibb.co/sCBB2BY/1667510045032.jpg",
+      "After Vijay optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Pulkit Mehta",
+    designation: "CEO",
+    company: "The Posty Club",
+    image: "https://i.ibb.co/Jj1WzDZ/image.png",
   },
   {
     testimonial:
-      "After Vijay optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Jeris Joseph",
-    designation: "CTO",
-    company: "H.Y.D.R.A. Trust",
-    image: "https://i.ibb.co/KzD8Bxs/1659102376568.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Vijay does.",
+    name: "Suhani Shah",
+    designation: "Magician, Content Creator",
+    company: "Youtube",
+    image: "https://i.ibb.co/5R8Lr8t/image.png",
   },
 ];
 
 const projects = [
+  {
+    name: "Suhani Shah Portfolio",
+    description:
+      "Suhani Shah's portfolio website showcases her as the world's most subscribed mentalist, highlighting her two decades of experience and captivating performances that blend magic with personalized content creation and live streaming.",
+    tags: [
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "freelance",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: suhanishah,
+    source_code_link: "",
+    preview_link: "https://suhanishah.com/"
+  },
+  {
+    name: "The Posty Club",
+    description:
+      "Discover, personalize, and purchase unique illustrations at The Posty Club – your premier e-commerce destination for personalized artwork. Transform memories into masterpieces today!",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "freelance",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: tpc,
+    source_code_link: "",
+    preview_link: "https://www.thepostyclub.com/"
+  },
   {
     name: "Crowdfunding D-App",
     description:
@@ -302,28 +363,6 @@ const projects = [
     image: weatherio,
     source_code_link: "https://github.com/blaze1402/WeatherApp",
     preview_link: "https://weatherio-app.vercel.app/"
-  },
-  {
-    name: "CredClub Clone App",
-    description:
-      "A meticulously crafted CredClub website replica featuring a visually captivating interface, mirroring the original design with precision and attention to detail.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: credclone,
-    source_code_link: "https://github.com/blaze1402/CredClubClone",
-    preview_link: "https://cred-club-clone.vercel.app/"
   },
 ];
 
