@@ -183,7 +183,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Vijay optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Vijay optimized our website, our sales increased by 50%. We can't thank them enough!",
     name: "Pulkit Mehta",
     designation: "CEO",
     company: "The Posty Club",
